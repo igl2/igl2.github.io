@@ -4,13 +4,18 @@
 
 body {
     background-color: #041631;
+    margin: 0;
 }
 
 #navbar-logo {
-    width: 45px;
+    z-index: 1;
+    margin: 0 25px;
+    width: 50px;
+    height: 50px;
 }
 
 .nav-container {
+    position: fixed;
     background-color: #020c1b;
     display: flex;
     width: 100%;
@@ -51,9 +56,10 @@ nav li, a:hover {
     justify-content: center;
     background-color: #041631;
     width: 100%;
-    color: #64ffda;
+    color: white;
     font-family: "Numans", sans-serif;
     font-size: 1.5em;
+    text-align: center;
 }
 
 .leftside {
@@ -88,12 +94,12 @@ nav li, a:hover {
     color: #64ffda;
     font-family: "Numans", sans-serif;
     font-size: 1.5em;
-    padding: 1em;
+    margin: 1em;
 }
 
 .say-hi-btn {
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid #64ffda;
     border-radius: 5px;
     color: white;
     padding: 15px 32px;
@@ -104,7 +110,7 @@ nav li, a:hover {
   }
 
  .say-hi-btn:hover {
-    background-color: #ffd580;
+    background-color: #64ffda;
     color: #171c28;
 }
 
