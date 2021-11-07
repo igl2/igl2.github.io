@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #041631;
+}
+
+#navbar-logo {
+    width: 45px;
+}
+
+.nav-container {
+    background-color: #020c1b;
+    display: flex;
+    width: 100%;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li, a {
+    display: inline;
+    text-decoration: none;
+    font-family: "Numans", sans-serif;
+    color: #64ffda;
+    margin: 0.5em;
+    font-size: 20px;
+}
+
+nav li, a:hover {
+    color: #ffd580;
+}
+
+.hero {
+    background-image: url('../images/beach-ge4f0a68b1_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #041631;
+    width: 100%;
+    color: #64ffda;
+    font-family: "Numans", sans-serif;
+    font-size: 1.5em;
+}
+
+.leftside {
+    position: absolute;
+}
+
+.leftside li {
+    list-style-type: none;
+    display: inline;
+}
+
+.leftside li i {
+    padding: 20px;
+    font-size: 30px;
+    color: #64ffda;
+}
+
+.leftside li i:hover {
+    color: #ffd580;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.contact-me {
+    color: white;
+    text-align: center;
+    color: #64ffda;
+    font-family: "Numans", sans-serif;
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.say-hi-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+
+ .say-hi-btn:hover {
+    background-color: #ffd580;
+    color: #171c28;
+}
+
+.footer {
+    background-color: #020c1b;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #64ffda;
+    margin-top: 7em;
+}
