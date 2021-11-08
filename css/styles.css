@@ -83,6 +83,23 @@ nav li, a:hover {
     color: #ffd580;
 }
 
+.about {
+    height: 800px;
+    border-top: 1px solid white;
+    padding-top: 1.5em;
+}
+
+.about-me {
+    text-align: center;
+    color: #64ffda;
+    font-family: "Numans", sans-serif;
+    padding: 2em;
+}
+
+#about-me-photo {
+    border-radius: 50%;
+}
+
 .contact {
     display: flex;
     align-items: center;
@@ -93,12 +110,11 @@ nav li, a:hover {
 }
 
 .contact-me {
-    color: white;
     text-align: center;
     color: #64ffda;
     font-family: "Numans", sans-serif;
     font-size: 1.5em;
-    margin: 1em;
+    padding: 0 1em;
 }
 
 .say-hi-btn {
@@ -130,4 +146,10 @@ nav li, a:hover {
 .copyright {
     color: #64ffda;
     margin-top: 7em;
+}
+
+@media only screen and (max-width: 480px) {
+    #nav-links {
+        display: none;
+    }
 }
