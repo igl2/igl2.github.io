@@ -1,2 +1,2 @@
-# igl2.github.io
+# Personal Portfolio
 Personal Portfolio using GitHub Pages
