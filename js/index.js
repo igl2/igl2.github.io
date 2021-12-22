@@ -1,12 +1,12 @@
 let photo = document.getElementById('about-me-photo');
 
 let blur = () => {
-    photo.style.border = '5px dashed #64ffda';
+    photo.style.opacity = '0.5';
 };
 
 let unblur = () => {
-    photo.style.border = '5px solid #64ffda';
+    photo.style.opacity = '1';
 };
 
-photo.addEventListener('mouseover', blur);
-photo.addEventListener('mouseout', unblur);
+photo.addEventListener('mousedown', blur);
+photo.addEventListener('mouseup', unblur);
