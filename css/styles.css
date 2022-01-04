@@ -39,6 +39,7 @@ nav li, a {
 
 nav li, a:hover {
     color: #ffd580;
+    transition: all 120ms ease-in 120ms;
 }
 
 .hero {
@@ -81,6 +82,8 @@ nav li, a:hover {
 
 .leftside li i:hover {
     color: #ffd580;
+    transform: scale(1.5);
+    transition: all 120ms ease-in-out 120ms;
 }
 
 .about {
