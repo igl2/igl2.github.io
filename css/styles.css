@@ -103,7 +103,6 @@ nav li, a:hover {
 
 .leftside li i:hover {
     color: #ffd580;
-    transform: scale(1.5);
     transition: all 120ms ease-in-out 120ms;
 }
 
@@ -218,5 +217,32 @@ nav li, a:hover {
 @media only screen and (max-width: 480px) {
     #nav-links {
         display: none;
+    }
+    #online-fit-expert-photo {
+        border: 5px solid white;
+        width: 12em;
+        border-radius: 5%;
+        margin: 2em;
+    }
+    .about {
+        height: 800px;
+        border-top: 1px solid white;
+        padding-top: 1.5em;
+    }
+    .projects {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 800px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    .skills {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 800px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
     }
 }
