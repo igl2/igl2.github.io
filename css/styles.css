@@ -15,7 +15,7 @@ body {
 }
 
 .nav-container {
-    position: fixed;
+    position: relative;
     background-color: #020c1b;
     display: flex;
     width: 100%;
@@ -215,6 +215,39 @@ nav li, a:hover {
 }
 
 @media only screen and (max-width: 480px) {
+    #nav-links {
+        display: none;
+    }
+    #online-fit-expert-photo {
+        border: 5px solid white;
+        width: 12em;
+        border-radius: 5%;
+        margin: 2em;
+    }
+    .about {
+        height: 800px;
+        border-top: 1px solid white;
+        padding-top: 1.5em;
+    }
+    .projects {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 800px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+    .skills {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 800px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     #nav-links {
         display: none;
     }
