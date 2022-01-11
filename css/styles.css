@@ -245,10 +245,9 @@ nav li, a:hover {
         display: none;
     }
     #online-fit-expert-photo {
-        border: 5px solid white;
-        width: 12em;
+        border: 5px solid #64ffda;
+        width: 50%;
         border-radius: 5%;
-        margin: 2em;
     }
     .about {
         height: 800px;
@@ -278,10 +277,9 @@ nav li, a:hover {
         display: none;
     }
     #online-fit-expert-photo {
-        border: 5px solid white;
-        width: 12em;
+        border: 5px solid #64ffda;
+        width: 50%;
         border-radius: 5%;
-        margin: 2em;
     }
     .about {
         height: 800px;
