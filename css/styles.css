@@ -90,27 +90,27 @@ nav li, a:hover {
     transition: all 120ms ease-in-out 120ms;
 }
 
-.leftside {
+.social-links {
     position: absolute;
 }
 
-.leftside li {
+.social-links li {
     list-style-type: none;
     display: inline;
 }
 
-.leftside li i {
+.social-links li i {
     padding: 20px;
     font-size: 30px;
     color: #64ffda;
 }
 
-.leftside li i:hover {
+.social-links li i:hover {
     color: #ffd580;
     transition: all 120ms ease-in-out 120ms;
 }
 
-.about {
+.about-section {
     height: auto;
     border-top: 1px solid white;
     padding-top: 1.5em;
@@ -166,7 +166,7 @@ nav li, a:hover {
     margin-bottom: 1em;
 }
 
-.projects {
+.projects-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,7 +183,7 @@ nav li, a:hover {
     padding: 0 1em;
 }
 
-.skills {
+.skills-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -192,7 +192,7 @@ nav li, a:hover {
     border-bottom: 1px solid white;
 }
 
-.contact {
+.contact-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -246,15 +246,15 @@ nav li, a:hover {
     }
     #online-fit-expert-photo {
         border: 5px solid #64ffda;
-        width: 50%;
+        width: 7em;
         border-radius: 5%;
     }
-    .about {
+    .about-section {
         height: 800px;
         border-top: 1px solid white;
         padding-top: 1.5em;
     }
-    .projects {
+    .projects-section {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -262,7 +262,7 @@ nav li, a:hover {
         border-top: 1px solid white;
         border-bottom: 1px solid white;
     }
-    .skills {
+    .skills-section {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -278,15 +278,15 @@ nav li, a:hover {
     }
     #online-fit-expert-photo {
         border: 5px solid #64ffda;
-        width: 50%;
+        width: 7em;
         border-radius: 5%;
     }
-    .about {
+    .about-section {
         height: 800px;
         border-top: 1px solid white;
         padding-top: 1.5em;
     }
-    .projects {
+    .projects-section {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -294,7 +294,7 @@ nav li, a:hover {
         border-top: 1px solid white;
         border-bottom: 1px solid white;
     }
-    .skills {
+    .skills-section {
         display: flex;
         align-items: center;
         justify-content: center;
