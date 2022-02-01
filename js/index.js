@@ -1,15 +1,46 @@
-let photo = document.getElementById('online-fit-expert-photo');
-let details = document.getElementById('click-on-img-text');
+let ofePhoto = document.getElementById('online-fit-expert-photo');
+let liftTrackerPhoto = document.getElementById('lift-tracker-photo');
+let triviaNationPhoto = document.getElementById('trivia-nation-photo');
 
-let blur = () => {
-    photo.style.opacity = '0.5';
-    details.style.display = 'block';
+let ofeDetails = document.getElementById('ofe-details');
+let liftTrackerDetails = document.getElementById('lift-tracker-details');
+let triviaNationDetails = document.getElementById('trivia-nation-details');
+
+let ofeBlur = () => {
+    ofePhoto.style.opacity = '0.5';
+    ofeDetails.style.display = 'block';
 };
 
-let unblur = () => {
-    photo.style.opacity = '1';
-    details.style.display = 'none';
+let ofeUnblur = () => {
+    ofePhoto.style.opacity = '1';
+    ofeDetails.style.display = 'none';
 };
 
-photo.addEventListener('mouseover', blur);
-photo.addEventListener('mouseout', unblur);
+ofePhoto.addEventListener('mouseover', ofeBlur);
+ofePhoto.addEventListener('mouseout', ofeUnblur);
+
+let liftTrackerBlur = () => {
+    liftTrackerPhoto.style.opacity = '0.5';
+    liftTrackerDetails.style.display = 'block';
+};
+
+let liftTrackerUnblur = () => {
+    liftTrackerPhoto.style.opacity = '1';
+    liftTrackerDetails.style.display = 'none';
+};
+
+liftTrackerPhoto.addEventListener('mouseover', liftTrackerBlur);
+liftTrackerPhoto.addEventListener('mouseout', liftTrackerUnblur);
+
+let triviaNationBlur = () => {
+    triviaNationPhoto.style.opacity = '0.5';
+    triviaNationDetails.style.display = 'block';
+};
+
+let triviaNationUnblur = () => {
+    triviaNationPhoto.style.opacity = '1';
+    triviaNationDetails.style.display = 'none';
+};
+
+triviaNationPhoto.addEventListener('mouseover', triviaNationBlur);
+triviaNationPhoto.addEventListener('mouseout', triviaNationUnblur);
