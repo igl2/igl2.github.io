@@ -2,7 +2,7 @@
 
 ## Description
 I built this project to utilize my knowledge and skills in front-end web development.
-This is a personal portfolio that describes me, my passion, skills, and hobbies!
+This is a personal portfolio that describes my passions, skills, and hobbies!
 
 ## Features
 Features include a visually appealing design, animations, and other projects I've worked on.
