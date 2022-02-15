@@ -8,11 +8,11 @@ This is a personal portfolio that describes my passions, skills, and hobbies!
 Features include a visually appealing design, animations, and other projects I've worked on.
 
 ## How to use
-Simply click on the link provided
+Simply click on the link provided in the About section --->
 
 ## Technologies
 - HTML5 - Served as the skeleton of the application
-- CSS3 - Served as the styling (or the "painting" I should say) of the application
+- CSS3 - Served as the styling (or the "painting" I should say) for the application
 - JavaScript - Served as the main language for the application
 
 ## Collaborators
