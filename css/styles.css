@@ -112,7 +112,6 @@ nav li, a:hover {
 
 .about-section {
     height: auto;
-    border-top: 1px solid white;
     padding-top: 1.5em;
 }
 
@@ -124,9 +123,9 @@ nav li, a:hover {
 }
 
 #about-me-photo {
-    border: 5px solid #64ffda;
-    border-radius: 5%;
-    width: 15em;
+    border: 3px solid #64ffda;
+    border-radius: 50%;
+    width: 12em;
 }
 
 #online-fit-expert-photo {
@@ -193,8 +192,6 @@ nav li, a:hover {
     align-items: center;
     justify-content: center;
     height: auto;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
 }
 
 .my-skills {
@@ -210,8 +207,6 @@ nav li, a:hover {
     align-items: center;
     justify-content: center;
     height: 500px;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
 }
 
 .contact-section {
@@ -219,8 +214,6 @@ nav li, a:hover {
     align-items: center;
     justify-content: center;
     height: 500px;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
 }
 
 .contact-me {
