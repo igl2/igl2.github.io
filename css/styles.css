@@ -295,7 +295,6 @@ nav li, a:hover {
     .about-section {
         height: auto;
         width: auto;
-        border-top: 1px solid white;
         padding-top: 1.5em;
     }
     .projects-section {
@@ -304,8 +303,6 @@ nav li, a:hover {
         justify-content: center;
         height: auto;
         width: auto;
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
     }
     .skills-section {
         display: flex;
@@ -313,8 +310,6 @@ nav li, a:hover {
         justify-content: center;
         height: auto;
         width: auto;
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
     }
 }
 
@@ -340,7 +335,6 @@ nav li, a:hover {
     .about-section {
         height: auto;
         width: auto;
-        border-top: 1px solid white;
         padding-top: 1.5em;
     }
     .projects-section {
@@ -349,8 +343,6 @@ nav li, a:hover {
         justify-content: center;
         height: auto;
         width: auto;
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
     }
     .skills-section {
         display: flex;
@@ -358,7 +350,5 @@ nav li, a:hover {
         justify-content: center;
         height: auto;
         width: auto;
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
     }
 }
