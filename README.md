@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Personal Portfolio - v1
 
 ## Description
 I built this project to utilize my knowledge and skills in front-end web development.
