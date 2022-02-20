@@ -1,176 +1,89 @@
+/** TAG SELECTORS **/
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: #041631;
     margin: 0;
+    text-align: center;
+    color: #64ffda;
+    font-family: "Numans", sans-serif;
 }
 
 p {
-    font-size: 0.85em;
+    line-height: 2;
 }
 
-#navbar-logo {
-    z-index: 1;
-    margin: 0 25px;
-    width: 50px;
-    height: 50px;
+hr {
+    margin: 100px auto;
 }
 
-.nav-container {
-    position: relative;
-    background-color: #020c1b;
-    display: flex;
-    width: 100%;
-    height: 70px;
-    align-items: center;
+h1 {
+    font-size: 4rem;
 }
 
-#nav-links {
-    display: flex;
-    justify-content: flex-end;
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
 }
 
-nav li, a {
-    display: inline;
-    text-decoration: none;
-    font-family: "Numans", sans-serif;
-    color: #64ffda;
-    margin: 0.5em;
-    font-size: 20px;
+li {
+    display: inline-block;
+    list-style-type: none;
+    width: 30px;
+    font-size: 2.5rem;
+    padding: 30px;
 }
 
-nav li, a:hover {
+li:hover {
     color: #ffd580;
-    transition: all 120ms ease-in 120ms;
+    transition: all 120ms ease-in-out 120ms;
 }
 
-.hero {
+/** CLASS SELECTORS **/
+.top-container {
     background-image: url('../images/beach.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 750px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 45rem;
+    position: relative;
+    padding-top: 100px;
+    color: black;
+}
+
+.middle-container {
+    background-color: #041631;
+    padding: 100px 0;
+}
+
+.bottom-container {
+    background-color: #020c1b;
+    padding: 50px 0 20px; 
 }
 
 .intro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #041631;
-    width: 100%;
+    width: 30%;
+    margin: auto auto 60px;
+}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid #64ffda;
+    border-radius: 5px;
     color: white;
-    font-family: "Numans", sans-serif;
-    font-size: 1.5em;
+    padding: 15px 32px;
     text-align: center;
-}
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
 
-.skill-icons {
-    position: relative;
-}
-
-.skill-icons li {
-    list-style-type: none;
-    display: inline;
-}
-
-.skill-icons li i {
-    padding: 20px;
-    font-size: 50px;
-    color: #64ffda;
-}
-
-.skill-icons li i:hover {
-    color: #ffd580;
-    transform: scale(1.5);
-    transition: all 120ms ease-in-out 120ms;
-}
-
-.social-links {
-    position: absolute;
-}
-
-.social-links li {
-    list-style-type: none;
-    display: inline;
-}
-
-.social-links li i {
-    padding: 20px;
-    font-size: 30px;
-    color: #64ffda;
-}
-
-.social-links li i:hover {
-    color: #ffd580;
-    transition: all 120ms ease-in-out 120ms;
-}
-
-.about-section {
-    height: auto;
-    padding-top: 1.5em;
-}
-
-.about-me {
-    text-align: center;
-    color: #64ffda;
-    font-family: "Numans", sans-serif;
-    padding: 2em;
-}
-
-#about-me-photo {
-    border: 3px solid #64ffda;
-    border-radius: 50%;
-    width: 12em;
-}
-
-#online-fit-expert-photo {
-    border: 5px solid #64ffda;
-    width: 20em;
-    border-radius: 5%;
-    margin: 2em;
-}
-
-#lift-tracker-photo {
-    border: 5px solid #64ffda;
-    width: 20em;
-    border-radius: 5%;
-    margin: 2em;
-}
-
-#trivia-nation-photo {
-    border: 5px solid #64ffda;
-    width: 20em;
-    border-radius: 5%;
-    margin: 2em;
-}
-
-.my-projects {
-    text-align: center;
-    color: #64ffda;
-    font-family: "Numans", sans-serif;
-    font-size: 1.5em;
-    padding: 0 1em;
-}
-
-#ofe-details {
-    display: none;
-}
-
-#lift-tracker-details {
-    display: none;
-}
-
-#trivia-nation-details {
-    display: none;
-}
-
-.project1 li {
-    list-style-type: none;
+ .btn:hover {
+    background-color: #64ffda;
+    color: #171c28;
+    cursor: pointer;
 }
 
 .technology-used .technology-used-item {
@@ -187,168 +100,20 @@ nav li, a:hover {
     margin-bottom: 1em;
 }
 
-.projects-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-}
-
-.my-skills {
-    text-align: center;
-    color: #64ffda;
-    font-family: "Numans", sans-serif;
-    font-size: 1.5em;
-    padding: 0 1em;
-}
-
-.skills-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
-}
-
-.contact-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
-}
-
-.contact-me {
-    text-align: center;
-    color: #64ffda;
-    font-family: "Numans", sans-serif;
-    font-size: 1.5em;
-    padding: 0 1em;
-}
-
-.say-hi-btn {
-    background-color: transparent;
-    border: 2px solid #64ffda;
-    border-radius: 5px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
+.footer-link {
+    color:#64ffda;
+    margin: 10px 20px;
     text-decoration: none;
-    font-size: 16px;
-    transition-duration: 0.4s;
-  }
-
- .say-hi-btn:hover {
-    background-color: #64ffda;
-    color: #171c28;
-    cursor: pointer;
 }
 
-.grab-a-copy-btn {
-    background-color: transparent;
-    border: 2px solid #64ffda;
-    border-radius: 5px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    transition-duration: 0.4s;
-  }
-
- .grab-a-copy-btn:hover {
-    background-color: #64ffda;
-    color: #171c28;
-    cursor: pointer;
-}
-
-.footer {
-    background-color: #020c1b;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer-link:hover {
+    color:#ffd580;
+    margin: 10px 20px;
+    text-decoration: underline;
 }
 
 .copyright {
     color: #64ffda;
-    margin-top: 7em;
-}
-
-@media only screen and (max-width: 480px) {
-    #nav-links {
-        display: none;
-    }
-    #online-fit-expert-photo {
-        border: 1px solid #64ffda;
-        width: 10em;
-        border-radius: 5%;
-    }
-    #lift-tracker-photo {
-        border: 1px solid #64ffda;
-        width: 10em;
-        border-radius: 5%;
-    }
-    #trivia-nation-photo {
-        border: 1px solid #64ffda;
-        width: 10em;
-        border-radius: 5%;
-    }
-    .about-section {
-        height: auto;
-        width: auto;
-        padding-top: 1.5em;
-    }
-    .projects-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: auto;
-        width: auto;
-    }
-    .skills-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: auto;
-        width: auto;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    #nav-links {
-        display: none;
-    }
-    #online-fit-expert-photo {
-        border: 1px solid #64ffda;
-        width: 10em;
-        border-radius: 5%;
-    }
-    #lift-tracker-photo {
-        border: 1px solid #64ffda;
-        width: 10em;
-        border-radius: 5%;
-    }
-    #trivia-nation-photo {
-        border: 1px solid #64ffda;
-        width: 10em;
-        border-radius: 5%;
-    }
-    .about-section {
-        height: auto;
-        width: auto;
-        padding-top: 1.5em;
-    }
-    .projects-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: auto;
-        width: auto;
-    }
-    .skills-section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: auto;
-        width: auto;
-    }
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
