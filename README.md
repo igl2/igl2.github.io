@@ -8,12 +8,11 @@ This is a personal portfolio that describes some things about me!
 Features include a visually appealing design, minor animations, and other projects I've worked on.
 
 ## How to use
-Simply click on the link provided in the About section --->
+Click on the link provided in the About section --->
 
 ## Technologies
 - HTML5
 - CSS3
-- JavaScript
 
 ## Collaborators
 Just Me!
