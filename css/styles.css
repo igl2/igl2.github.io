@@ -95,6 +95,7 @@ a:hover {
     background-color: #64ffda;
     color: #171c28;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .projects-row {
