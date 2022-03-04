@@ -10,6 +10,21 @@ body {
     font-family: "Numans", sans-serif;
 }
 
+hr {
+    margin: 100px auto;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+/* Navbar */
 .navbar {
     background-color: #020c1b;
 }
@@ -32,37 +47,18 @@ body {
     border-color: #64ffda;
 } 
 
-p {
-    line-height: 2;
+/* Skills */
+.skill-logo {
+    margin: 1% 1%;
+    font-size: 2rem;
 }
 
-hr {
-    margin: 100px auto;
-}
-
-h1 {
-    font-size: 4rem;
-}
-
-h2 {
-    font-size: 2.5rem;
-    font-weight: normal;
-    padding-bottom: 10px;
-}
-
-.skills-logos {
-    display: inline-block;
-    list-style-type: none;
-    width: 30px;
-    font-size: 2.5rem;
-    padding: 30px;
-}
-
-.skills-logos:hover {
+.skill-logos:hover {
     color: #ffd580;
     transition: all 120ms ease-in-out 120ms;
 }
 
+/* Projects */
 .project-link {
     color:#ffd580;
     text-decoration: none;
@@ -73,7 +69,24 @@ h2 {
     text-decoration: underline;
 }
 
-/** CLASS SELECTORS **/
+.project-description {
+    line-height: 2;
+}
+
+.projects-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.project-hr {
+    border: dotted whitesmoke 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+/* Containers */
 .top-container {
     background-image: url('../images/beach.jpg');
     background-color: #041631;
@@ -86,6 +99,7 @@ h2 {
     color: white;
 }
 
+
 .middle-container {
     background-color: #041631;
     padding: 100px 0;
@@ -96,11 +110,33 @@ h2 {
     padding: 50px 0 20px; 
 }
 
+/* Miscellaneous */
 .intro {
     width: 30%;
     margin: 40px auto 60px;
+    line-height: 2;
 }
 
+.technology-used .technology-used-item {
+    display: inline-block;
+    margin: 3px 3px 3px 0;
+    font-family: "Numans", sans-serif;
+    font-size: .75rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: #64ffda;
+    border: 1px solid #64ffda;
+    background: 0 0;
+    margin-bottom: 1em;
+}
+
+.contact-message {
+    width: 50%;
+    margin: 40px auto 60px;
+}
+
+/* Buttons */
 .btn {
     background-color: transparent;
     border: 2px solid #64ffda;
@@ -120,43 +156,9 @@ h2 {
     text-decoration: none;
 }
 
-.projects-row {
-    width: 50%;
-    margin: 100px auto;
-    text-align: left;
-}
 
-.project-hr {
-    border: dotted whitesmoke 6px;
-    border-bottom: none;
-    width: 5%;
-    margin: 100px auto;
-}
 
-.technology-used .technology-used-item {
-    display: inline-block;
-    margin: 3px 3px 3px 0;
-    font-family: "Numans", sans-serif;
-    font-size: .75rem;
-    font-weight: 700;
-    padding: 2px 7px;
-    border-radius: 3px;
-    color: #64ffda;
-    border: 1px solid #64ffda;
-    background: 0 0;
-    margin-bottom: 1em;
-}
-
-.skill-icons {
-    width: 50%;
-    margin: 50px auto;
-}
-
-.contact-message {
-    width: 50%;
-    margin: 40px auto 60px;
-}
-
+/* Footer */
 .social-icon {
     color:#64ffda;
     margin: 10px 20px;
@@ -174,8 +176,19 @@ h2 {
     padding: 20px 0;
 }
 
+/* Media */
 @media (max-width: 1200px) {
     .intro {
+        width: 70%;
+        margin: 40px auto 60px;
+        text-align: left;
+    }
+
+    .project-description {
+        width: 100%;
+    }
+
+    .contact-message {
         width: 70%;
         margin: 40px auto 60px;
         text-align: left;
