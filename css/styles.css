@@ -44,7 +44,7 @@ h2 {
   }
 
 .custom-toggler.navbar-toggler {
-    border-color: #64ffda;
+    border-color: #fff;
 } 
 
 /* Skills */
@@ -184,13 +184,14 @@ h2 {
         text-align: left;
     }
 
-    .project-description {
-        width: 100%;
-    }
-
     .contact-message {
         width: 70%;
         margin: 40px auto 60px;
         text-align: left;
+    }
+
+    .skill-logo {
+        margin: 1% 1%;
+        font-size: 2rem;
     }
 }
