@@ -29,7 +29,7 @@ h2 {
 /* Navbar */
 .navbar {
     background-color: transparent;
-    transition: 0.75s ease;
+    transition: 0.5s ease-in-out;
 }
 
 .navbar.scrolled {
@@ -60,7 +60,7 @@ h2 {
 }
 
 .fa-angle-down {
-    margin-top: 15rem;
+    margin-top: 25rem;
     font-size: 2.5rem;
     color: #fff;
 }
@@ -117,12 +117,11 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 50rem;
+    height: 100vh;
     position: relative;
-    padding-top: 200px;
+    padding-top: 20rem;
     color: white;
 }
-
 
 .middle-container {
     background-color: #041631;
@@ -201,24 +200,25 @@ h2 {
 }
 
 /* Media */
-@media (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     .navbar {
         background-color: #020c1b;
         transition: 0.75s ease;
     }
     
-    .navbar.scrolled {
-        background-color: #020c1b;
-    }
-
     .top-container {
         background-attachment: local;
+        padding-top: 15rem;
     }
 
     .intro {
         width: 70%;
         margin: 40px auto 60px;
         text-align: left;
+    }
+
+    .fa-angle-down {
+        margin-top: 5rem;
     }
 
     .contact-message {
