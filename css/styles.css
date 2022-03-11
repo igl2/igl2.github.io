@@ -29,7 +29,6 @@ h2 {
 /* Navbar */
 .navbar {
     background-color: transparent;
-    /* height: 3.9rem; */
     transition: 0.75s ease;
 }
 
@@ -205,7 +204,6 @@ h2 {
 @media (max-width: 1200px) {
     .navbar {
         background-color: #020c1b;
-        /* height: 5rem; */
         transition: 0.75s ease;
     }
     
