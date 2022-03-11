@@ -16,12 +16,14 @@ hr {
 
 h1 {
     font-size: 4rem;
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 2.5rem;
     font-weight: normal;
     padding-bottom: 10px;
+    text-transform: uppercase;
 }
 
 /* Navbar */
@@ -45,7 +47,22 @@ h2 {
 
 .custom-toggler.navbar-toggler {
     border-color: #fff;
-} 
+}
+
+/* Hero Section */
+.title-text-minor {
+    font-size: 1.5rem;
+}
+
+.fa-angle-down {
+    margin-top: 15rem;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.fa-angle-down:hover {
+    color: #ffd580;
+}
 
 /* Skills */
 .skill-logo {
