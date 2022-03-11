@@ -27,18 +27,20 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 
-  <!-- JavaScript -->
-  <script type="text/javascript" src="js/index.js"></script>
+
+
+  <!-- JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
   <!-- Title Page -->
   <header>
-    <nav class="navbar navbar-default fixed-top navbar-expand-lg">
+    <nav class="navbar navbar-custom fixed-top navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="favicon.ico" alt="logo"></a>
-        <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -63,7 +65,7 @@
       <div class="top-container">
         <h1 class="title-text">Hi, I'm Isaiah!</h1>
         <p class="subtitle-text">a web developer</p>
-        <a class="down-arrow" href="#about"><i class="fa-solid fa-angle-down"></i></a>
+        <a class="down-arrow" href="#about" aria-label="down-arrow"><i class="fa-solid fa-angle-down"></i></a>
       </div>
     </section>
 
@@ -89,7 +91,8 @@
         <h2>Projects</h2>
         <div class="projects-row">
           <h3>Online Fit Expert</h3>
-          <p class="project-description">As a class project that I developed with a friend, this web application allows users to search for
+          <p class="project-description">As a class project that I developed with a friend, this web application allows
+            users to search for
             shoes and view/track
             their workouts. Check out <a class="project-link" href="https://online-fit-expert.web.app/"
               target="_blank">Online
@@ -108,7 +111,8 @@
         <hr class="project-hr" />
         <div class="projects-row">
           <h3>Save My Jam</h3>
-          <p class="project-description">As a Codecademy project, this web application allows users to search the Spotify library,
+          <p class="project-description">As a Codecademy project, this web application allows users to search the
+            Spotify library,
             create a playlist, and save it to their personal Spotify account. Check out <a class="project-link"
               href="https://savemyjam.surge.sh" target="_blank">Save My Jam</a>!</p>
           <div class="technology-used">
@@ -122,8 +126,8 @@
         <hr class="project-hr" />
         <div class="projects-row">
           <h3>Personal Website v2</h3>
-          <p class="project-description">This is a second iteration of my personal website. Check out <a class="project-link"
-              href="https://igl2.github.io/v2/" target="_blank">my second personal website</a>!</p>
+          <p class="project-description">This is a second iteration of my personal website. Check out <a
+              class="project-link" href="https://igl2.github.io/v2/" target="_blank">my second personal website</a>!</p>
           <div class="technology-used">
             <span class="technology-used-item">HTML5</span>
             <span class="technology-used-item">CSS3</span>
@@ -170,6 +174,8 @@
       <p class="copyright">&copy; Isaiah Lleva 2021</p>
     </div>
   </footer>
+  <!-- JavaScript -->
+  <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>
