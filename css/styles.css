@@ -31,6 +31,10 @@ h2 {
     background-color: #020c1b;
 }
 
+.navbar.scrolled {
+    background-color: #ffd580;
+}
+
 .navbar li a {
     color: #64ffda;
     font-size: 1.2rem;
@@ -50,7 +54,7 @@ h2 {
 }
 
 /* Hero Section */
-.title-text-minor {
+.subtitle-text {
     font-size: 1.5rem;
 }
 
@@ -197,6 +201,10 @@ h2 {
 
 /* Media */
 @media (max-width: 1200px) {
+    .top-container {
+        background-attachment: local;
+    }
+
     .intro {
         width: 70%;
         margin: 40px auto 60px;
