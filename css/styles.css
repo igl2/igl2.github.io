@@ -207,6 +207,7 @@ h2 {
     }
     
     .top-container {
+        background-attachment: local;
         padding-top: 15rem;
     }
 
