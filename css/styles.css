@@ -214,17 +214,21 @@ h2 {
     .intro {
         width: 70%;
         margin: 40px auto 60px;
-        text-align: left;
+        text-align: center;
     }
 
     .fa-angle-down {
         margin-top: 5rem;
     }
 
+    .projects-row {
+        text-align: center;
+    }
+
     .contact-message {
         width: 70%;
         margin: 40px auto 60px;
-        text-align: left;
+        text-align: center;
     }
 
     .skill-logo {
