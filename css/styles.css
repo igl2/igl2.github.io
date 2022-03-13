@@ -97,7 +97,7 @@ h2 {
 }
 
 .projects-row {
-    width: 50%;
+    width: 40%;
     margin: 100px auto;
     text-align: left;
 }
@@ -135,7 +135,7 @@ h2 {
 
 /* Miscellaneous */
 .intro {
-    width: 50%;
+    width: 40%;
     margin: 40px auto 60px;
     line-height: 2;
 }
@@ -155,7 +155,7 @@ h2 {
 }
 
 .contact-message {
-    width: 50%;
+    width: 40%;
     margin: 40px auto 60px;
 }
 
@@ -222,17 +222,18 @@ h2 {
     }
 
     .projects-row {
-        text-align: center;
-    }
-
-    .contact-message {
         width: 70%;
-        margin: 40px auto 60px;
         text-align: center;
     }
 
     .skill-logo {
         margin: 1% 1%;
         font-size: 2rem;
+    }
+
+    .contact-message {
+        width: 70%;
+        margin: 40px auto 60px;
+        text-align: center;
     }
 }
