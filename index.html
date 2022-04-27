@@ -34,48 +34,47 @@
 
 <body>
   <!-- Title Page -->
-  <header>
-    <nav class="navbar fixed-top navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="favicon-32x32.png" alt="logo"></a>
-        <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+  <section class="hero-section">
+    <div class="hero-container">
+      <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="favicon-32x32.png" alt="logo"></a>
+          <button class="custom-toggler navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <section class="title">
-      <div class="top-container">
-        <h1 class="title-text animate__animated animate__fadeInDown">Hi, I'm Isaiah!</h1>
-        <p class="subtitle-text animate__animated animate__fadeInUp">Aspiring Web Developer &amp; Designer</p>
-        <a class="down-arrow" href="#about" aria-label="down-arrow"><i class="fa-solid fa-angle-down animate__animated animate__fadeInDown"></i></a>
-      </div>
-    </section>
+      </nav>
 
-  </header>
+      <h1 class="animate__animated animate__fadeInDown">Hi, I'm Isaiah!</h1>
+      <h2 class="animate__animated animate__fadeInUp">Aspiring Web Developer &amp; Designer</h2>
+      <a class="down-arrow" href="#about" aria-label="down-arrow"><i
+          class="fa-solid fa-angle-down animate__animated animate__fadeInDown"></i></a>
+    </div>
+  </section>
   <main>
     <!-- About Me -->
-    <div class="middle-container" id="about">
-      <div class="about-me">
-        <h2>About Me</h2>
-        <img src="images/profile-img.png" alt="about-me-photo" id="about-me-photo">
-        <p class="intro">My name is Isaiah and I'm a recent graduate from the University of West Florida. I
+    <section class="about" id="about">
+      <div class="container">
+        <h1>About Me</h1>
+        <img src="images/profile-img.png" alt="about-me-photo" class="profile-photo">
+        <p>My name is Isaiah and I'm a recent graduate from the University of West Florida. I
           graduated with a major
           in Software Design and Development and a minor in Computer Science. I'm seeking to take my skills
           into a
@@ -84,62 +83,66 @@
           out my resume below!</p>
         <a class="btn" href="static/resume.pdf" target="_blank">Resume</a>
       </div>
-      <!-- Projects -->
-      <div class="projects-section" id="projects">
-        <hr />
-        <h2>Projects</h2>
-        <div class="projects-row">
-          <h3>Online Fit Expert</h3>
-          <p class="project-description">As a class project that I developed with a friend, this web application allows
-            users to search for
-            shoes and view/track
-            their workouts. Check out <a class="project-link" href="https://online-fit-expert.web.app/"
-              target="_blank">Online
-              Fit
-              Expert</a>!</p>
-          <div class="technology-used">
-            <span class="technology-used-item">HTML5</span>
-            <span class="technology-used-item">CSS3</span>
-            <span class="technology-used-item">JavaScript</span>
-            <span class="technology-used-item">Angular</span>
-            <span class="technology-used-item">Bootstrap</span>
-            <span class="technology-used-item">Firebase</span>
-            <span class="technology-used-item">Sneaker Database API</span>
+    </section>
+    <!-- Projects -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <h1>Projects</h1>
+        <div class="projects-grid">
+          <div class="projects-row">
+            <h2>Online Fit Expert</h2>
+            <p class="project-description">As a class project that I developed with a friend, this web application
+              allows
+              users to search for
+              shoes and view/track
+              their workouts. Check out <a class="project-link" href="https://online-fit-expert.web.app/"
+                target="_blank">Online
+                Fit
+                Expert</a>!</p>
+            <div class="technology-used">
+              <span class="technology-used-item">HTML5</span>
+              <span class="technology-used-item">CSS3</span>
+              <span class="technology-used-item">JavaScript</span>
+              <span class="technology-used-item">Angular</span>
+              <span class="technology-used-item">Bootstrap</span>
+              <span class="technology-used-item">Firebase</span>
+              <span class="technology-used-item">Sneaker Database API</span>
+            </div>
           </div>
-        </div>
-        <hr class="project-hr" />
-        <div class="projects-row">
-          <h3>Save My Jam</h3>
-          <p class="project-description">As a Codecademy project, this web application allows users to search the
-            Spotify library,
-            create a playlist, and save it to their personal Spotify account. Check out <a class="project-link"
-              href="https://savemyjam.surge.sh" target="_blank">Save My Jam</a>!</p>
-          <div class="technology-used">
-            <span class="technology-used-item">HTML5</span>
-            <span class="technology-used-item">CSS3</span>
-            <span class="technology-used-item">JavaScript</span>
-            <span class="technology-used-item">React</span>
-            <span class="technology-used-item">Spotify API</span>
+          <div class="projects-row">
+            <h2>Save My Jam</h2>
+            <p class="project-description">As a Codecademy project, this web application allows users to search the
+              Spotify library,
+              create a playlist, and save it to their personal Spotify account. Check out <a class="project-link"
+                href="https://savemyjam.surge.sh" target="_blank">Save My Jam</a>!</p>
+            <div class="technology-used">
+              <span class="technology-used-item">HTML5</span>
+              <span class="technology-used-item">CSS3</span>
+              <span class="technology-used-item">JavaScript</span>
+              <span class="technology-used-item">React</span>
+              <span class="technology-used-item">Spotify API</span>
+            </div>
           </div>
-        </div>
-        <hr class="project-hr" />
-        <div class="projects-row">
-          <h3>Personal Website v2</h3>
-          <p class="project-description">This is the second iteration of my personal website. Check out <a
-              class="project-link" href="https://igl2.github.io/v2/" target="_blank">my second personal website</a>!</p>
-          <div class="technology-used">
-            <span class="technology-used-item">HTML5</span>
-            <span class="technology-used-item">CSS3</span>
-            <span class="technology-used-item">JavaScript</span>
-            <span class="technology-used-item">Bootstrap</span>
-            <span class="technology-used-item">jQuery</span>
+          <div class="projects-row">
+            <h2>Personal Website v2</h2>
+            <p class="project-description">This is the second iteration of my personal website. Check out <a
+                class="project-link" href="https://igl2.github.io/v2/" target="_blank">my second personal website</a>!
+            </p>
+            <div class="technology-used">
+              <span class="technology-used-item">HTML5</span>
+              <span class="technology-used-item">CSS3</span>
+              <span class="technology-used-item">JavaScript</span>
+              <span class="technology-used-item">Bootstrap</span>
+              <span class="technology-used-item">jQuery</span>
+            </div>
           </div>
         </div>
       </div>
-      <!-- Skills -->
-      <div class="skills-section" id="skills">
-        <hr />
-        <h2>Skills</h2>
+    </section>
+    <!-- Skills -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <h1>Skills</h1>
         <p>Here are some technologies I've worked with:</p>
         <div class="skill-logos-container">
           <i class="skill-logo fa fa-html5"></i>
@@ -153,28 +156,33 @@
           <i class="skill-logo fab fa-git-alt"></i>
         </div>
       </div>
-      <!-- Contact -->
-      <div class="contact-section" id="contact">
-        <hr />
-        <h2>Get In Touch!</h2>
-        <p class="contact-message">Got any questions for me? Just want to say hi and get to know me more? My inbox is
+    </section>
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <h1>Get In Touch!</h1>
+        <p>Got any questions for me? Just want to say hi and get to know me more? My inbox is
           always open so feel
           free to message me and I'll try to get back to you as soon as I can.</p>
         <a class="btn" href="mailto:isaiahlleva@gmail.com">Say Hi!</a>
       </div>
-    </div>
+    </section>
   </main>
   <!-- Footer -->
   <footer>
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/isaiahlleva/" target="_blank"
-        aria-label="linkedin-logo"><i class="fa-brands fa-linkedin social-icon"></i></a>
-      <a class="footer-link" href="https://github.com/igl2" target="_blank" aria-label="linkedin-logo"><i
-          class="fa-brands fa-github social-icon"></i></a>
-      <a class="footer-link" href="https://www.instagram.com/isaiah_lleva/" target="_blank"
-        aria-label="linkedin-logo"><i class="fa-brands fa-instagram social-icon"></i></a>
-      <p class="copyright">&copy; Isaiah Lleva 2021</p>
-    </div>
+    <section class="footer">
+      <div class="container">
+        <div class="social-icon-wrapper">
+          <a class="footer-link" href="https://www.linkedin.com/in/isaiahlleva/" target="_blank"
+            aria-label="linkedin-logo"><i class="fa-brands fa-linkedin social-icon"></i></a>
+          <a class="footer-link" href="https://github.com/igl2" target="_blank" aria-label="linkedin-logo"><i
+              class="fa-brands fa-github social-icon"></i></a>
+          <a class="footer-link" href="https://www.instagram.com/isaiah_lleva/" target="_blank"
+            aria-label="linkedin-logo"><i class="fa-brands fa-instagram social-icon"></i></a>
+        </div>
+        <p class="copyright">&copy; Isaiah Lleva 2021</p>
+      </div>
+    </section>
   </footer>
   <!-- JavaScript -->
   <script type="text/javascript" src="js/index.js"></script>

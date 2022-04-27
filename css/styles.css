@@ -5,25 +5,38 @@
 
 body {
     margin: 0;
-    text-align: center;
-    color: #64ffda;
+    color: white;
     font-family: "Numans", sans-serif;
+    background-color: #020c1b;
 }
 
-hr {
-    margin: 100px auto;
+.container {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 50px;
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 30px;
     font-weight: normal;
-    padding-bottom: 10px;
-    text-transform: uppercase;
+}
+
+p {
+    line-height: 2;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #64ffda;
+}
+
+.profile-photo {
+    width: 15%
 }
 
 /* Navbar */
@@ -38,8 +51,8 @@ h2 {
 
 .navbar li a {
     color: #fff;
-    font-size: 1.2rem;
-    margin: auto 0.5rem;
+    font-size: 20px;
+    margin: auto 10px;
 }
 
 .navbar li a:hover {
@@ -55,14 +68,25 @@ h2 {
 }
 
 /* Hero Section */
-.subtitle-text {
-    font-size: 1.5rem;
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../images/beach.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
 }
 
 .fa-angle-down {
-    margin-top: 15rem;
-    font-size: 2rem;
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
     color: #fff;
+    margin-bottom: 20px;
 }
 
 .fa-angle-down:hover {
@@ -71,7 +95,7 @@ h2 {
 
 /* Skills */
 .skill-logo {
-    margin: 1% 1%;
+    margin: 20px 20px;
     font-size: 2rem;
 }
 
@@ -82,6 +106,13 @@ h2 {
 }
 
 /* Projects */
+.projects-grid {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
+}
+
 .project-link {
     color:#ffd580;
     text-decoration: none;
@@ -92,52 +123,8 @@ h2 {
     text-decoration: underline;
 }
 
-.project-description {
-    line-height: 2;
-}
-
 .projects-row {
-    width: 40%;
-    margin: 100px auto;
-    text-align: left;
-}
-
-.project-hr {
-    border: dotted whitesmoke 6px;
-    border-bottom: none;
-    width: 5%;
-    margin: 100px auto;
-}
-
-/* Containers */
-.top-container {
-    background-image: url('../images/beach.jpg');
-    background-attachment: fixed;
-    background-color: #041631;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 50rem;
-    position: relative;
-    padding-top: 15rem;
-    color: white;
-}
-
-.middle-container {
-    background-color: #041631;
-    padding: 100px 0;
-}
-
-.bottom-container {
-    background-color: #020c1b;
-    padding: 50px 0 20px; 
-}
-
-/* Miscellaneous */
-.intro {
-    width: 40%;
-    margin: 40px auto 60px;
-    line-height: 2;
+    text-align: center;
 }
 
 .technology-used .technology-used-item {
@@ -152,11 +139,6 @@ h2 {
     border: 1px solid #64ffda;
     background: 0 0;
     margin-bottom: 1em;
-}
-
-.contact-message {
-    width: 40%;
-    margin: 40px auto 60px;
 }
 
 /* Buttons */
@@ -182,6 +164,12 @@ h2 {
 
 
 /* Footer */
+.copyright {
+    color: #64ffda;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
 .social-icon {
     color:#64ffda;
     margin: 10px 20px;
@@ -193,10 +181,8 @@ h2 {
     color:#ffd580;
 }
 
-.copyright {
-    color: #64ffda;
-    font-size: 0.75rem;
-    padding: 20px 0;
+.social-icon-wrapper {
+    display: inline-block;
 }
 
 /* Media */
@@ -206,34 +192,24 @@ h2 {
         transition: 0.75s ease;
     }
     
-    .top-container {
+    .hero-container {
         background-attachment: local;
-        height: 100vh;
     }
 
-    .intro {
-        width: 70%;
-        margin: 40px auto 60px;
-        text-align: center;
-    }
-
-    .fa-angle-down {
-        margin-top: 5rem;
-    }
-
-    .projects-row {
-        width: 70%;
-        text-align: center;
+    .projects-grid {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .skill-logo {
         margin: 1% 1%;
         font-size: 2rem;
     }
+}
 
-    .contact-message {
-        width: 70%;
-        margin: 40px auto 60px;
-        text-align: center;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .projects-grid {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
