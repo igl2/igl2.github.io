@@ -21,11 +21,13 @@ body {
 h1 {
     font-size: 50px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h2 {
     font-size: 30px;
     font-weight: normal;
+    text-align: center;
 }
 
 p {
@@ -33,10 +35,11 @@ p {
     margin-top: 15px;
     margin-bottom: 15px;
     color: #64ffda;
+    text-align: center;
 }
 
 .profile-photo {
-    width: 15%
+    width: 15%;
 }
 
 /* Navbar */
@@ -196,6 +199,10 @@ p {
         background-attachment: local;
     }
 
+    .profile-photo {
+        width: 30%;
+    }
+
     .projects-grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -211,5 +218,9 @@ p {
     .projects-grid {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .profile-photo {
+        width: 50%;
     }
 }
