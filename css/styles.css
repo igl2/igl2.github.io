@@ -90,10 +90,12 @@ p {
     font-size: 30px;
     color: #fff;
     margin-bottom: 20px;
+    transition-duration: 0.4s;
 }
 
 .fa-angle-down:hover {
     color: #ffd580;
+    transition-duration: 0.4s;
 }
 
 /* About */
@@ -124,10 +126,13 @@ p {
 .skill-logo:hover {
     color: #ffd580;
     transition: all 120ms ease-in-out 120ms;
-    transform: scale(1.5);
 }
 
 /* Projects */
+.card-link {
+    text-decoration: none;
+}
+
 .projects-grid {
     padding: 50px;
     display: grid;
@@ -135,32 +140,35 @@ p {
     gap: 70px;
 }
 
-.project-link {
-    color:#ffd580;
-    text-decoration: none;
-}
-
-.project-link:hover {
-    color:#ffd580;
-    text-decoration: underline;
-}
-
 .projects-card {
-    text-align: center;
-    border-color: #64ffda;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #64ffda;
     border-radius: 20px;
-    border-style: solid;
+    color: #64ffda;
     padding: 15px;
     position: relative;
+    width: 450px;
+    height: 450px;
+    transition-duration: 0.4s;
 }
 
-.project-card-link {
-    position: absolute;
-    bottom: 0;
-}
-
-.technology-used {
-    margin-bottom: 90px;
+.projects-card:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #ffd580;
+    border-radius: 20px;
+    color: #64ffda;
+    padding: 15px;
+    position: relative;
+    width: 450px;
+    height: 450px;
+    transition-duration: 0.4s;
+    transform: scale(1.1);
 }
 
 .technology-used .technology-used-item {
@@ -194,6 +202,7 @@ p {
     color: #171c28;
     cursor: pointer;
     text-decoration: none;
+    transition-duration: 0.4s;
 }
 
 /* Footer */
@@ -217,10 +226,12 @@ p {
     margin: 10px 20px;
     text-decoration: none;
     font-size: 1.5rem;
+    transition-duration: 0.4s;
 }
 
 .social-icon:hover {
     color:#ffd580;
+    transition-duration: 0.4s;
 }
 
 .social-icon-wrapper {
