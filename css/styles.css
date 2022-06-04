@@ -150,8 +150,8 @@ p {
     color: #64ffda;
     padding: 15px;
     position: relative;
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     transition-duration: 0.4s;
 }
 
@@ -165,8 +165,8 @@ p {
     color: #64ffda;
     padding: 15px;
     position: relative;
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     transition-duration: 0.4s;
     transform: scale(1.1);
 }
@@ -259,10 +259,6 @@ p {
         display: grid;
         grid-template-columns: 1fr;
     }
-
-    .project-card-link {
-        position: static;
-    }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -281,7 +277,13 @@ p {
         grid-template-columns: 1fr;
     }
 
-    .project-card-link {
-        position: static;
+    .projects-card {
+        width: 220px;
+        height: 500px;
+    }
+    
+    .projects-card:hover {
+        width: 220px;
+        height: 500px;  
     }
 }
