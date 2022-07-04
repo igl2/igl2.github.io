@@ -131,7 +131,7 @@ p {
 /* Projects */
 .card-link {
     text-decoration: none;
-    margin: 0px;
+    margin-left: 16px;
 }
 
 .projects-grid {
