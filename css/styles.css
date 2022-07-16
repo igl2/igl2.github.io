@@ -40,11 +40,13 @@ p {
 /* Navbar */
 .navbar {
     background-color: transparent;
+    /* border-radius: 25px; */
     transition: 0.75s ease;
 }
 
 .navbar.scrolled {
-    background-color: #020c1b;
+    background-color: #1D428A;
+    border-radius: 25px;
 }
 
 .navbar li a {
