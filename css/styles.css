@@ -45,7 +45,7 @@ p {
 }
 
 .navbar.scrolled {
-    background-color: #1D428A;
+    background-color: #020c1b;
     border-radius: 25px;
 }
 
@@ -65,6 +65,11 @@ p {
 
 .custom-toggler.navbar-toggler {
     border-color: #fff;
+}
+
+.logo {
+    width: 30%;
+    height: 30%;
 }
 
 /* Hero Section */
