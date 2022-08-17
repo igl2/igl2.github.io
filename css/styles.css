@@ -233,8 +233,47 @@ p {
 }
 
 .skill-logo:hover {
-    color: dodgerblue;
     transition: all 120ms ease-in-out 120ms;
+}
+
+.fa-html5:hover {
+    color: #e34c26;
+}
+
+.fa-css3:hover {
+    color: #264de4;
+}
+
+.fa-js:hover {
+    color: #f0db4f;
+}
+
+.fa-bootstrap:hover {
+    color: #563d7c;
+}
+
+.fa-angular:hover {
+    color: #dd1b16;
+}
+
+.fa-react:hover {
+    color: #61dbfb;
+}
+
+.fa-node:hover {
+    color: #68a063;
+}
+
+.fa-java:hover {
+    color: #f89820;
+}
+
+.fa-git-alt:hover {
+    color: #f1502f;
+}
+
+.fa-figma:hover {
+    color: #1abcfe;
 }
 
 /* Contact */
