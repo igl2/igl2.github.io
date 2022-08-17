@@ -135,9 +135,9 @@ p {
     color: #07608c;
     text-decoration: none;
     font-weight: 700;
-  }
-  
-  .hover-underline-animation:after {
+}
+
+.hover-underline-animation:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -148,12 +148,12 @@ p {
     background-color: #0087ca;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
-  }
-  
-  .hover-underline-animation:hover:after {
+}
+
+.hover-underline-animation:hover:after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+}
 
 /* Hobbies Grid */
 .hobbies-section {
@@ -190,7 +190,6 @@ p {
 
 .card-link {
     text-decoration: none;
-    margin-left: 16px;
 }
 
 .projects-grid {
@@ -247,7 +246,7 @@ p {
 /* Skills */
 .skills-section {
     background-color: whitesmoke;
-    color:#171c28
+    color: #171c28
 }
 
 .skill-logos-container {
@@ -343,9 +342,9 @@ textarea {
     text-decoration: none;
     font-size: 16px;
     transition-duration: 0.2s;
-  }
+}
 
- .btn:hover {
+.btn:hover {
     background-color: dodgerblue;
     border-color: dodgerblue;
     color: white;
@@ -371,7 +370,7 @@ textarea {
 }
 
 .social-icon {
-    color:#64ffda;
+    color: #64ffda;
     margin: 10px 20px;
     text-decoration: none;
     font-size: 1.5rem;
@@ -379,7 +378,7 @@ textarea {
 }
 
 .social-icon:hover {
-    color:#ffd580;
+    color: #ffd580;
     transition-duration: 0.4s;
 }
 
@@ -393,7 +392,7 @@ textarea {
         background-color: #020c1b;
         transition: 0.75s ease;
     }
-    
+
     .hero-container {
         background-attachment: local;
     }
@@ -449,10 +448,10 @@ textarea {
         width: auto;
         height: 500px;
     }
-    
+
     .projects-card:hover {
         width: auto;
-        height: 500px;  
+        height: 500px;
     }
 
     .email-submit-btn {
