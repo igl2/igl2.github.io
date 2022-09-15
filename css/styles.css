@@ -442,6 +442,10 @@ textarea {
         padding: 40px;
     }
 
+    .hero-title {
+        font-size: 35px;
+    }
+
     .hero-date {
         position: static;
     }
