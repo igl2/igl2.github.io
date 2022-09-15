@@ -17,7 +17,6 @@ body {
 
 h1 {
     text-align: center;
-    text-transform: uppercase;
 }
 
 h2 {
@@ -90,6 +89,12 @@ p {
 .hero-title {
     font-size: 50px;
     margin: 15px;
+}
+
+.hero-date {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
 }
 
 .fa-angle-down {
@@ -195,7 +200,7 @@ p {
 .projects-grid {
     padding: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 70px;
 }
 
@@ -397,6 +402,10 @@ textarea {
         background-attachment: local;
     }
 
+    .hero-date {
+        position: static;
+    }
+
     .about-grid {
         display: grid;
         grid-template-columns: 1fr;
@@ -431,6 +440,10 @@ textarea {
         display: grid;
         grid-template-columns: 1fr;
         padding: 40px;
+    }
+
+    .hero-date {
+        position: static;
     }
 
     .hobbies-grid {
