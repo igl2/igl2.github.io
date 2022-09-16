@@ -13,7 +13,7 @@ if (currentHour >= 1 && currentHour <= 12) {
 	$('#greeting').css("color", "#FFB37B");
   } else {
 	$('#greeting').text("Good Evening");
-	$('#greeting').css("color", "FF8866");
+	$('#greeting').css("color", "#FF8866");
   }
 
 $(window).scroll(function(){
